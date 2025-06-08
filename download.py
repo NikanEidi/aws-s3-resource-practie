@@ -2,7 +2,7 @@ import boto3
 
 s3 = boto3.resource('s3', region_name='ca-central-1')
 
-bucket_name = "nikan-s3-resource-demo"
+bucket_name = ""
 
 def download(Bucket=bucket_name, object_name="test.txt", file_name="downloaded_test.txt"):
     """

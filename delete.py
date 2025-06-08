@@ -3,7 +3,7 @@ from botocore.exceptions import ClientError
 
 s3 = boto3.resource('s3', region_name='ca-central-1')
 
-bucket_name = "nikan-s3-resource-demo"
+bucket_name = ""
 
 def delete_file(object_name=None, Bucket=bucket_name):
     """

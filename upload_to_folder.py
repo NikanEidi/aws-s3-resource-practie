@@ -5,7 +5,7 @@ from botocore.exceptions import ClientError
 
 s3 = boto3.resource('s3', region_name='ca-central-1')
 
-bucket_name = "nikan-s3-resource-demo"
+bucket_name = ""
 
 def upload_to_folder(folder_name="documents", file_name="test.txt", Bucket=bucket_name):
     """

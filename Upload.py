@@ -5,7 +5,7 @@ import pathlib  # provides methods for working with paths
 # create the S3 resource
 s3 = boto3.resource('s3', region_name='ca-central-1')
 
-bucket_name = "nikan-s3-resource-demo"
+bucket_name = ""
 
 def bucket():
     s3.create_bucket(

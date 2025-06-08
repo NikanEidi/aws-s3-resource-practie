@@ -5,7 +5,7 @@ from botocore.exceptions import ClientError
 s3 = boto3.resource('s3', region_name='ca-central-1')
 
 # declare bucket name
-bucket_name = "nikan-s3-resource-demo"
+bucket_name = ""
 
 def check_file_info(object_name="test.txt", Bucket=bucket_name):
     """
